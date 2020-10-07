@@ -3,13 +3,13 @@
 
 void main()
 {  
+  int x , y, temp=0;
   printf("enter your number x:");
   scanf("%d",&x);
   
   printf("enter your number y:");
   scanf("%d",&y);
   
-    int x , y, temp;
     temp = x;
     x = y;
     y = temp;
