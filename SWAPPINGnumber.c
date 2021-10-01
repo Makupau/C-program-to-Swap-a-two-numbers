@@ -1,18 +1,24 @@
 #include<stdio.h>
 #include<conio.h>
 
+#define p printf(
+#define s scanf(
+#define f )
+#define printf("\n") m
+
 void main()
 {  
-  printf("enter your number x:");
-  scanf("%d",&x);
+  p "enter your number x:" f;
+  s "%d",&x f;
   
-  printf("enter your number y:");
-  scanf("%d",&y);
+  p "enter your number y:" f;
+  s "%d",&y f;
   
     int x , y, temp;
     temp = x;
     x = y;
     y = temp;
-    printf("x = %d and y = %d", x, y);
+    p "x = %d and y = %d", x, y f;
+  m;
     getch();
 }
